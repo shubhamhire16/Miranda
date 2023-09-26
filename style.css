@@ -1,0 +1,230 @@
+@font-face {
+  font-family: domaine;
+  src: url(/fonts/DomaineDispCondMedium.ttf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+}
+#main{
+  background-color: #222;
+  overflow-x: hidden;
+}
+#page1{
+  height: 100%;
+  width: 100vw;
+  background-color: #C5BDB4;
+  position: relative;
+  overflow: hidden;
+}
+
+#nav{
+  height: 110px;
+  width: 100%;
+  border-bottom: 1px solid #a5a5a5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  
+}
+#nav img{
+  height: 30px;
+  width: 30%;
+}
+#nav h5{
+  font-size: 20px;
+  font-weight: 100;
+  width: 30%;
+}
+#nav i{
+  width: 30%;
+  text-align: right;
+}
+
+#elems{
+  display: flex;
+  height: 430px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 60px;
+}
+#elem1{
+  width: 30%;
+  height: 100%;
+}
+#elem2{
+  width: 30%;
+  height: 100%;
+  padding: 20px 60px;
+  text-align: center;
+  border-right: 2px solid #a5a5a5;
+  border-left: 2px solid #a5a5a5;
+}
+#elem3{
+  width: 30%;
+  height: 100%;
+}
+#elem1 #image-div{
+  height: 50%;
+  width: 100%;
+  overflow: hidden;
+}
+#elem3 #image-div{
+  height: 50%;
+  width: 100%;
+  overflow: hidden;
+}
+#image-div img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all ease 0.5s;
+}
+
+#image-div:hover img{
+  scale:1.1;
+
+}
+
+#elem1 h4{
+  font-size: 24px;
+  margin: 20px 0px 10px 0px;
+  font-family: canopee;
+}
+
+#elem1 h4 span{
+  font-size: 18px;
+  font-weight: 100;
+  background-color: #B73C12;
+  color: #C5BDB4;
+  margin-left: 10px;
+  padding: 3px;
+  border-radius: 4px;
+}
+
+#elem1 p{
+  font-size: 22px;
+  font-family: domaine;
+  color: #5e5e5e;
+}
+#elem3 h4{
+  font-size: 24px;
+  margin: 20px 0px 10px 0px;
+  font-family: canopee;
+}
+
+#elem3 h4 span{
+  font-size: 18px;
+  font-weight: 100;
+  background-color: #B73C12;
+  color: #C5BDB4;
+  margin-left: 10px;
+  padding: 3px;
+  border-radius: 4px;
+}
+
+#elem3 p{
+  font-size: 22px;
+  font-family: domaine;
+  color: #5e5e5e;
+}
+
+#elem2 h2{
+  font-family: canopee;
+  font-size: 75px;
+  font-weight: 100;
+}
+#elem2 h4{
+  font-family: domaine;
+  font-size: 40px;
+  font-weight: 100;
+  color: #484848;
+  margin: 20px 0;
+}
+#elem2 h6{
+  font-family: domaine;
+  font-size: 20px;
+  font-weight: 100;
+  color: #484848;
+}
+#miranda-heading{
+  background-color: #1C1C1A;
+  width: 95%;
+  margin: 0 auto;
+  height: 30em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#miranda-heading h1{
+  font-weight: 100;
+  font-size: 510px;
+  text-align: center;
+  color: #C5BDB4;
+  text-align: center;
+  font-family: canopee;
+  letter-spacing: -8px;
+}
+
+#page2{
+  height: 150vh;
+  width: 100%;
+  background-color: #C5BDB4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 40px;
+}
+
+#page2-left{
+  height: 100%;
+  width: 40%;
+  padding-right: 30px;
+}
+#page2-left h2{
+  font-size: 130px;
+  font-weight: 100;
+  font-family: canopee;
+  line-height: 150px;
+  
+}
+#page2-left h2 span{
+  font-size: 210px;
+  font-weight: 600;
+}
+#page2-left img{
+  height: 50%;
+  width: 100%;
+  object-fit: cover;
+}
+#page2-left p{
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 100;
+  font-family: domaine;
+  color: #484848;
+}
+#page2-left p::first-letter{
+  font-size: 80px;
+  background-color: #484848;
+  color: #C5BDB4;
+  float: left;
+  line-height: 70px;
+  padding: 8px;
+  margin-right: 15px;
+  margin-top: 8px;
+  font-family: canopee;
+}
+#page2-right{
+  height: 100%;
+  
+}
+

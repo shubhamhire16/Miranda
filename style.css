@@ -285,6 +285,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-top: -2px;
+  padding-bottom: 30px;
 }
 #page4-left{
   width: 65%;
